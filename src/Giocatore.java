@@ -14,6 +14,7 @@ public Giocatore(int id, Arbitro arbitro) {
     for (int i = 1; i < Globali.NUM_CARTE; i++) {
         carte.add(i);
     }
+    mescola();
 }
 public void mescola(){
     Collections.shuffle(carte);//rimescola le carte
